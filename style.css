@@ -22,9 +22,28 @@ header {
 
  main {
   grid-area: main;
-  background-color: #787878;
+  background-color: #fff;
   text-align: center;
  }
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-template-rows: repeat(3, 30%);
+  grid-gap: 4%;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main-grid > div {
+  display: grid;
+  background-image: url(Home Work/img/back.jpg);
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+   border-radius: 20%;
+  }
+
+
+
 
  footer {
   grid-area: footer;
