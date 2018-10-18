@@ -37,9 +37,11 @@ header {
 
 .main-grid > div {
   display: grid;
-  background-image: url(Home Work/img/back.jpg);
   box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
    border-radius: 20%;
+   text-align: center;
+   align-items: center;
+   color: black;
   }
 
 
