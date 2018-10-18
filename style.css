@@ -28,8 +28,8 @@ header {
 
 .main-grid {
   display: grid;
-  grid-template-columns: repeat(4, 20%);
   grid-template-rows: repeat(3, 30%);
+  grid-template-columns: repeat(4, 20%);
   grid-gap: 4%;
   justify-content: center;
   padding: 20px;
@@ -51,3 +51,26 @@ header {
   grid-area: footer;
   background-color: #565656;
  }
+
+
+ @media screen and (min-width: 768px) and (max-width: 920px){
+  .main-grid {
+    grid-template-rows: repeat(4, 20%);
+    grid-template-columns: repeat(3, 20%);
+  }
+ }
+
+ @media screen and (min-width: 480px) and (max-width: 768px){
+.main-grid {
+  grid-template-rows: repeat(5,20%);
+  grid-template-columns:repeat(2,20%);
+  }
+ }
+
+ @media screen and (max-width: 480px){
+  .main-grid {
+    grid-template-rows: repeat(6,20%);
+    grid-template-columns: repeat(1,20%);
+  }
+ }
+
