@@ -35,7 +35,7 @@ header {
   padding: 20px;
 }
 
-.main-grid > div {
+.main-grid > iframe {
   display: grid;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
    border-radius: 20%;
@@ -43,12 +43,6 @@ header {
    align-items: center;
    color: black;
   }
-
-.main-grid > div:nth-child(2n) {
-  background-color: #f00;
-}
-
-
 
  footer {
   grid-area: footer;
